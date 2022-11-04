@@ -49,14 +49,16 @@ function App() {
       {/* <Routes>
           <Route exact path='/about' element={<About />}>
           </Route>
-          <Route exact path="/" element={*/}<TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />}> 
+          <Route exact path="/" element={*/}
+          <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />
           {/* </Route>
         </Routes> */}
       
       </div>
       {/* </Router> */}
     </>
- 
-}
+  );
+      }
+
 
 export default App;
